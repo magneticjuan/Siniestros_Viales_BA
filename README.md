@@ -35,12 +35,29 @@ Este repositorio alberga los recursos y resultados de un proyecto de análisis d
 El archivo `dashboard.pbix` contiene un dashboard interactivo creado en Power BI. Este dashboard presenta visualmente los hallazgos del análisis de datos realizado en los scripts Python. Proporciona una vista intuitiva y fácil de entender del comportamiento de los siniestros viales en Buenos Aires.
 
 **Notas Adicionales sobre el Dashboard:**
-- Al abrir el dashboard, se encontrarán medidas creadas con fórmulas DAX planificadas para su uso en la creación de KPIs. Sin embargo, debido a limitaciones de rendimiento en la máquina del autor, estas medidas no fueron ejecutadas.
-- Las medidas incluidas son:
-  - **Semestre Actual**: Calcula las métricas del semestre actual.
-  - **Semestre Anterior**: Calcula las métricas del semestre anterior.
-  - **Varianza entre Semestres**: Calcula la diferencia entre las métricas del semestre actual y el semestre anterior.
-- Se invita al usuario a intentar utilizar estas medidas para crear KPIs y analizar aún más los datos.
+Este repositorio alberga un dashboard interactivo desarrollado en Power BI, destinado al análisis de datos relacionados con siniestros viales en Buenos Aires. El dashboard consta de cinco hojas, cada una diseñada para proporcionar una perspectiva específica de los datos.
+
+#### Portada
+La hoja de portada ofrece una visión general del documento y facilita la navegación entre las distintas pestañas del dashboard.
+
+#### Información General
+Esta hoja presenta gráficos que permiten analizar el número de víctimas de siniestros viales, con la capacidad de filtrar los datos según diversos criterios como el año, el tipo de vehículo involucrado, la gravedad del accidente y la parte responsable del mismo.
+
+#### Análisis Adicional
+En esta sección se incluyen gráficos complementarios que proporcionan una comprensión más profunda de los datos. Se exploran variables como la edad de las víctimas, su rol en el accidente y el tipo de vehículo que conducían, permitiendo la interacción mediante filtros adicionales basados en el sexo de las víctimas.
+
+#### Indicadores Clave de Rendimiento (KPI's)
+La hoja de KPI's presenta cuatro métricas fundamentales para evaluar la situación de los siniestros viales en Buenos Aires. Estos KPI's se calcularon mediante el uso de funciones DAX (Data Analysis Expressions), lo que garantiza precisión y flexibilidad en los cálculos. Los indicadores son los siguientes:
+
+1. **Reducción de Homicidios**: Evalúa si se alcanzó una disminución del 10% en los homicidios relacionados con siniestros viales.
+2. **Reducción de Accidentes Fatales de Motociclistas**: Analiza si se logró reducir en un 7% la cantidad de accidentes fatales involucrando motociclistas entre los años 2020 y 2021.
+3. **Proporción de Accidentes con Más de una Víctima**: Muestra la proporción de accidentes con múltiples víctimas en relación con el total de accidentes registrados.
+4. **Reducción de Accidentes Graves**: Este KPI busca determinar si se logró una reducción del 10% en los accidentes que resultaron en lesiones graves o fatales.
+
+#### Análisis de Inteligencia Artificial (IA)
+La última hoja del dashboard contiene un análisis avanzado utilizando herramientas de inteligencia artificial. Este análisis busca identificar y explicar la influencia de diversas variables en otras de importancia dentro del contexto de los siniestros viales.
+
+El dashboard es altamente interactivo, permitiendo a los usuarios aplicar filtros y observar cambios en tiempo real en las visualizaciones. Este enfoque dinámico facilita un análisis exhaustivo y personalizado de los datos, brindando una plataforma efectiva para la toma de decisiones informadas en materia de seguridad vial.
 
 ### Instrucciones de Uso
 
