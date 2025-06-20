@@ -68,6 +68,6 @@ El dashboard es altamente interactivo, permitiendo a los usuarios aplicar filtro
 
 ### Requerimientos
 
-- Python 3.x
+- Python 3.11
 - Bibliotecas de Python: pandas, seaborn, matplotlib
 - Power BI Desktop (para visualizar y editar el dashboard)
